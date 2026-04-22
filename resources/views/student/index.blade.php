@@ -42,6 +42,10 @@
                                         <td>Matthew Bartolomeo</td>
                                         <td>matthewbartolomeo@sample.com</td>
                                     </tr>
+                                    <tr>
+                                        <td>Johnella Dondon</td>
+                                        <td>johnelladondon@sample.com</td>
+                                    </tr>
                                 {{-- @endforeach --}}
                                 </tbody>
                             </table>
