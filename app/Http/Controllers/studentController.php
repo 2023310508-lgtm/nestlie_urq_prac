@@ -9,12 +9,12 @@ class studentController extends Controller
     public function index()
     {
         $students = \App\Models\Student::all();
-        return view('students.index', compact('students'));
+        return view('student.index', compact('students'));
 
     }
     public function create()
     {
-        return view('students.create');
+        return view('student.create');
     }
     public function store(Request $request)
     {
@@ -34,12 +34,12 @@ class studentController extends Controller
     public function show($id)
     {
         $student = \App\Models\Student::findOrFail($id);
-        return view('students.show', compact('student'));
+        return view('student.show', compact('student'));
     }
         public function edit($id)
         {
             $student = \App\Models\Student::findOrFail($id);
-            return view('students.edit', compact('student'));
+            return view('student.edit', compact('student'));
         }
 
         public function update(Request $request, $id)
