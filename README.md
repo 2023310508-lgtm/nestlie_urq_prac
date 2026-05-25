@@ -64,3 +64,11 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+git remote remove origin
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/2023310508-lgtm/nestlie_urq_prac.git
+git push -u origin main
